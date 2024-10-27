@@ -4,6 +4,7 @@ import lombok.*;
 import jakarta.persistence.*;
 import umc.study.domain.common.BaseEntity;
 import umc.study.domain.enums.Gender;
+import umc.study.domain.enums.UserStatus;
 
 import java.util.Date;
 
@@ -33,6 +34,10 @@ public class User extends BaseEntity {
 
     @Column(length = 10, nullable = false)
     private String name;
+
+    @Enumerated(EnumType.STRING)
+    @Column(columnDefinition = "VARCHAR(15) DEFAULT 'ACTIVE'", nullable = false)
+    private UserStatus status;
 
     @Enumerated(EnumType.STRING)
     @Column(columnDefinition = "VARCHAR(1)")

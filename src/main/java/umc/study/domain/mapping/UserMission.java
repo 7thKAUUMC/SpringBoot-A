@@ -6,7 +6,7 @@ import umc.study.domain.Mission;
 import umc.study.domain.User;
 import umc.study.domain.common.BaseEntity;
 import java.time.LocalDateTime;
-import umc.study.domain.enums.Status;
+import umc.study.domain.enums.MissionStatus;
 
 @Entity
 @Getter
@@ -30,7 +30,7 @@ public class UserMission extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private Status status;
+    private MissionStatus missionStatus;
 
     @Column(name = "completed_at")
     private LocalDateTime completedAt;
