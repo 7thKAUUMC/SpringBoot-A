@@ -4,11 +4,9 @@ import umc.study.domain.common.BaseEntity;
 import jakarta.persistence.*; // JPA 관련 어노테이션
 import lombok.*; // Lombok 관련 어노테이션
 import umc.study.domain.mapping.MemberMission;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-
 
 @Entity
 @Getter

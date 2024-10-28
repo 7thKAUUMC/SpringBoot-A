@@ -9,7 +9,7 @@ import umc.study.domain.common.BaseEntity;
 @Builder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-public class Review extends BaseEntity{
+public class Review extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,4 +18,8 @@ public class Review extends BaseEntity{
     private String title;
 
     private Float score;
+
+    @ManyToOne // Member와의 다대일 관계 설정
+    @JoinColumn(name = "member_id") // 외래 키 이름을 지정
+    private Member member;
 }
