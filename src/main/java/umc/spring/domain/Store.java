@@ -32,4 +32,13 @@ public class Store extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     private UserStatus status;
+
+    @Override
+    public String toString() {
+        return "Store{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", status=" + status +'}';
+    }
 }
