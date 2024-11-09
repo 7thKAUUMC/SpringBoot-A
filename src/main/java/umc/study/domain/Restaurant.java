@@ -26,5 +26,15 @@ public class Restaurant extends BaseEntity {
     private String phoneNum;
 
     @Column(name = "total_rating")
-    private Long totalRating;
+    private Float totalRating;
+
+    @Override
+    public String toString() {
+        return "Store{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", score=" + totalRating +
+                '}';
+    }
 }

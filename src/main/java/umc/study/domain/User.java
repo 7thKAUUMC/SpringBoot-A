@@ -49,6 +49,7 @@ public class User extends BaseEntity {
     @Column(length = 225)
     private String address;
 
+    @Builder.Default
     @Column(name = "total_point", nullable = false)
     private Long totalPoint = 0L;
 }
