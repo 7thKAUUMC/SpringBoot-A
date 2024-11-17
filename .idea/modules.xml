@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.umc.workbook-zero.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.umc.workbook-zero.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workbook-zero.iml" filepath="$PROJECT_DIR$/.idea/modules/workbook-zero.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/workbook-zero.main.iml" filepath="$PROJECT_DIR$/.idea/modules/workbook-zero.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workbook-zero.test.iml" filepath="$PROJECT_DIR$/.idea/modules/workbook-zero.test.iml" />
     </modules>
   </component>
 </project>

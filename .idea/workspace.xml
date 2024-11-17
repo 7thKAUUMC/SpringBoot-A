@@ -4,7 +4,118 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa9c46e-fb56-43ae-b8eb-7bf04854d832" name="Changes" comment="&quot;mission 7 : 아맞다 비번지키기!!&quot;" />
+    <list default="true" id="afa9c46e-fb56-43ae-b8eb-7bf04854d832" name="Changes" comment="&quot;커밋&quot;">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/8.8/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/StudyApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/apiPayload/ApiResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/apiPayload/code/BaseCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/apiPayload/code/BaseErrorCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/apiPayload/code/ErrorReasonDTO$ErrorReasonDTOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/apiPayload/code/ErrorReasonDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/apiPayload/code/ReasonDTO$ReasonDTOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/apiPayload/code/ReasonDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/apiPayload/code/status/ErrorStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/apiPayload/code/status/SuccessStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/convert/TempConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/FoodCategory$FoodCategoryBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/FoodCategory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Member$MemberBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Member.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Mission$MissionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Mission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Region$RegionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Region.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Review$ReviewBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Review.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Store$StoreBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Store.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Terms$TermsBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/Terms.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/common/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/enums/Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/enums/MemberStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/enums/SocialType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/mapping/MemberAgree$MemberAgreeBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/mapping/MemberAgree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/mapping/MemberMission$MemberMissionBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/mapping/MemberMission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/mapping/MemberPrefer$MemberPreferBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/mapping/MemberPrefer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/domain/mapping/MissionStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/web/controller/TempRestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/web/dto/TempResponse$TempTestDTO$TempTestDTOBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/web/dto/TempResponse$TempTestDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/umc/study/web/dto/TempResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/UMCController.class.uniqueId0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/StudyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/BaseCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/BaseErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/ErrorReasonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/ReasonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/status/ErrorStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/status/SuccessStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/exception/ExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/exception/GeneralException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/exception/handler/TempHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/convert/TempConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/FoodCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/Mission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/Terms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/common/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/enums/MemberStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/enums/SocialType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/mapping/MemberAgree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/mapping/MemberMission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/mapping/MemberPrefer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/mapping/MissionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/TempService/TempCommandQueryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/TempService/TempQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/TempService/TempQueryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/TempRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/TempResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/umc/workbook_zero/WorkbookZeroApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +125,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="workbook-zero" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,20 +175,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.StudyApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SpringBoot-A [:umc.study.StudyApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;2ivii-jungmin&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/fptdl/Downloads/spring/SpringA/SpringBoot-A&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.StudyApplication.executor": "Run",
+    "Gradle.SpringBoot-A [:umc.study.StudyApplication.main()].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging feature/#2",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/fptdl/Downloads/spring/SpringA/SpringBoot-A",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,6 +237,7 @@
     <MESSAGE value="&quot;mission 6 : 하는중...&quot;" />
     <MESSAGE value="&quot;mission 7 : 미션성공!&quot;" />
     <MESSAGE value="&quot;mission 7 : 아맞다 비번지키기!!&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;mission 7 : 아맞다 비번지키기!!&quot;" />
+    <MESSAGE value="&quot;커밋&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;커밋&quot;" />
   </component>
 </project>
