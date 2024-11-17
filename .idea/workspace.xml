@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa9c46e-fb56-43ae-b8eb-7bf04854d832" name="Changes" comment="&quot;아 비번지키기.....&quot;" />
+    <list default="true" id="afa9c46e-fb56-43ae-b8eb-7bf04854d832" name="Changes" comment="&quot;mission8 #2 Feat: 회원가입 api구현&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/convert/StoreConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/StoreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/StoreService/StoreCommandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/StoreService/StoreCommandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/StoreRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/StoreRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/StoreResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/umc/study/domain/Member$MemberBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/umc/study/domain/Member$MemberBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/umc/study/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/umc/study/domain/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -131,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731862436446</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="&quot;mission8 #2 Feat: 회원가입 api구현&quot;">
+      <option name="closed" value="true" />
+      <created>1731863774735</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731863774735</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +162,7 @@
     <MESSAGE value="&quot;머지&quot;" />
     <MESSAGE value="&quot;#2 Feat: 회원가입 api구현&quot;" />
     <MESSAGE value="&quot;아 비번지키기.....&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;아 비번지키기.....&quot;" />
+    <MESSAGE value="&quot;mission8 #2 Feat: 회원가입 api구현&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;mission8 #2 Feat: 회원가입 api구현&quot;" />
   </component>
 </project>
