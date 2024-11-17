@@ -4,35 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa9c46e-fb56-43ae-b8eb-7bf04854d832" name="Changes" comment="&quot;커밋&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/exception/handler/FoodCategoryHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/convert/MemberConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/convert/MemberPreferConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/FoodCategoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/MemberService/MemberCommandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/MemberService/MemberCommandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/MemberRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/MemberRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/MemberResponseDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.8/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/workbook-zero.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/workbook-zero.main.iml" beforeDir="false" />
+    <list default="true" id="afa9c46e-fb56-43ae-b8eb-7bf04854d832" name="Changes" comment="&quot;#2 Feat: 회원가입 api구현&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/annotation/ExistCategories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/validator/CategoriesExistValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/umc/study/apiPayload/code/status/ErrorStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/umc/study/apiPayload/code/status/ErrorStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/umc/study/domain/enums/Gender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/umc/study/domain/enums/Gender.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/umc/study/domain/mapping/MemberPrefer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/umc/study/domain/mapping/MemberPrefer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/status/ErrorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/status/ErrorStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/domain/enums/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/enums/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/domain/mapping/MemberPrefer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/mapping/MemberPrefer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731632589345</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&quot;#2 Feat: 회원가입 api구현&quot;">
+      <option name="closed" value="true" />
+      <created>1731862436446</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731862436446</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +145,7 @@
     <MESSAGE value="&quot;mission 7 : 아맞다 비번지키기!!&quot;" />
     <MESSAGE value="&quot;커밋&quot;" />
     <MESSAGE value="&quot;머지&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;머지&quot;" />
+    <MESSAGE value="&quot;#2 Feat: 회원가입 api구현&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;#2 Feat: 회원가입 api구현&quot;" />
   </component>
 </project>
