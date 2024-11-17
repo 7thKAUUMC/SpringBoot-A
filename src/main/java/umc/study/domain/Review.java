@@ -22,4 +22,8 @@ public class Review extends BaseEntity {
     @ManyToOne // Member와의 다대일 관계 설정
     @JoinColumn(name = "member_id") // 외래 키 이름을 지정
     private Member member;
+
+    @ManyToOne // Member와의 다대일 관계 설정
+    @JoinColumn(name = "store_id") // 외래 키 이름을 지정
+    private Store store;
 }

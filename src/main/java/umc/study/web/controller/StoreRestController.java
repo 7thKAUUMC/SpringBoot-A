@@ -23,6 +23,6 @@ public class StoreRestController {
     @PostMapping("/")
     public ApiResponse<StoreResponseDTO.RegisterResultDTO> join(@RequestBody @Valid StoreRequestDTO.RegisterDto request){
         Store store = storeCommandService.joinStore(request);
-        return ApiResponse.onSuccess(StoreConverter.toJoinResultDTO(store));
+        return ApiResponse.onSuccess(StoreConverter.toRegisterResultDTO(store));
     }
 }

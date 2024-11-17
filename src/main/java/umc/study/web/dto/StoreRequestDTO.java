@@ -3,6 +3,7 @@ package umc.study.web.dto;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.NonNull;
+import umc.study.validation.annotation.ExistCategories;
 
 import java.util.List;
 

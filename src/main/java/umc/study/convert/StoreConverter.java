@@ -7,7 +7,7 @@ import umc.study.web.dto.StoreResponseDTO;
 import java.time.LocalDateTime;
 
 public class StoreConverter {
-    public static StoreResponseDTO.RegisterResultDTO toJoinResultDTO(Store store){
+    public static StoreResponseDTO.RegisterResultDTO toRegisterResultDTO(Store store){
         return StoreResponseDTO.RegisterResultDTO.builder()
                 .storeId(store.getId())
                 .createdAt(LocalDateTime.now())

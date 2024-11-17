@@ -4,6 +4,8 @@ import jakarta.persistence.*; // JPA 관련 어노테이션
 import lombok.*; // Lombok 관련 어노테이션
 import umc.study.domain.common.BaseEntity;
 
+import java.net.CookieStore;
+
 @Entity
 @Getter
 @Builder
@@ -20,4 +22,5 @@ public class Store extends BaseEntity {
     private String address;
 
     private Float score;
+
 }
