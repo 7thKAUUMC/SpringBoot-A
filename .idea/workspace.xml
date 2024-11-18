@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afa9c46e-fb56-43ae-b8eb-7bf04854d832" name="Changes" comment="&quot;mission8 #5 Feat: 미션추가 api구현&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/exception/handler/MemberHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/convert/MemberMissionConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/convert/MissionConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/MissionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/MissionService/MissionCommandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/MissionService/MissionCommandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/MissionRestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/MissionRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/MissionResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/domain/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/domain/mapping/MemberMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/mapping/MemberMission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/ReviewRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/ReviewRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/convert/MissionConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/convert/MissionConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731870936820</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="&quot;mission8 #5 Feat: 미션추가 api구현&quot;">
+      <option name="closed" value="true" />
+      <created>1731907133342</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731907133342</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,6 +186,7 @@
     <MESSAGE value="&quot;mission8 #2 Feat: 회원가입 api구현&quot;" />
     <MESSAGE value="&quot;mission8 #3 Feat: 가게추가 api구현&quot;" />
     <MESSAGE value="&quot;mission8 #4 Feat: 리뷰추가 api구현&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;mission8 #4 Feat: 리뷰추가 api구현&quot;" />
+    <MESSAGE value="&quot;mission8 #5 Feat: 미션추가 api구현&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;mission8 #5 Feat: 미션추가 api구현&quot;" />
   </component>
 </project>

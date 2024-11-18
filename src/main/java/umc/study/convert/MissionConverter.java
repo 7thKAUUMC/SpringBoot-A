@@ -5,6 +5,7 @@ import umc.study.web.dto.MissionRequestDTO;
 import umc.study.web.dto.MissionResponseDTO;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 public class MissionConverter {
     public static MissionResponseDTO.MRegisterResultDTO toMRegisterResultDTO(Mission mission){
@@ -14,12 +15,12 @@ public class MissionConverter {
                 .build();
     }
 
-    public static Mission toMission(MissionRequestDTO.MRegisterDTO request){
-
+    public static Mission toMission(MissionRequestDTO.MRegisterDTO request) {
         return Mission.builder()
                 .reward(request.getReward())
                 .deadline(request.getDeadline())
                 .missionSpec(request.getMissionSpec())
+                .memberMissionList(new ArrayList<>()) // 명시적으로 초기화
                 .build();
     }
 }
