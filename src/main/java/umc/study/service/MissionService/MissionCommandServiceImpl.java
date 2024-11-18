@@ -9,6 +9,7 @@ import umc.study.convert.MissionConverter;
 import umc.study.domain.Member;
 import umc.study.domain.Mission;
 import umc.study.domain.mapping.MemberMission;
+import umc.study.domain.mapping.MissionStatus;
 import umc.study.repository.MemberRepository;
 import umc.study.repository.MissionRepository;
 import umc.study.web.dto.MissionRequestDTO;
@@ -36,5 +37,17 @@ public class MissionCommandServiceImpl implements MissionCommandService{
         memberMissionList.forEach(memberMission -> {memberMission.setMission(newMission);});
 
         return missionRepository.save(newMission);
+    }
+
+    @Override
+    public void updateMissionStatus(Long missionId, MissionStatus status) {
+        Mission mission = missionRepository.findById(missionId)
+                .orElseThrow(() -> new RuntimeException("Mission not found"));
+
+        mission.getMemberMissionList().forEach(memberMission -> {
+            memberMission.setStatus(status); // 상태 업데이트
+        });
+
+        missionRepository.save(mission); // 상태 변경 저장
     }
 }
