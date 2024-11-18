@@ -10,8 +10,8 @@ public class ReviewRequestDTO {
         @NotNull
         String title;
         @NotNull
-        Integer member_id;
+        Long member_id;
         @NotNull
-        Integer store_id;
+        Long store_id;
     }
 }
