@@ -19,6 +19,8 @@ public class Food extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, unique = true)
-    private FoodType name;
+    private FoodType type;
 
+    @Column(nullable = false)
+    private String name;
 }

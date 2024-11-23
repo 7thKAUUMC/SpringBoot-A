@@ -7,6 +7,7 @@ import umc.study.domain.enums.Gender;
 import umc.study.domain.enums.UserStatus;
 
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Getter
@@ -36,11 +37,11 @@ public class User extends BaseEntity {
     private String name;
 
     @Enumerated(EnumType.STRING)
-    @Column(columnDefinition = "VARCHAR(15) DEFAULT 'ACTIVE'", nullable = false)
-    private UserStatus status;
+    @Column(nullable = false)
+    private UserStatus status; // 서버에서 자동으로 설정
 
-    @Enumerated(EnumType.STRING)
-    @Column(columnDefinition = "VARCHAR(1)")
+    @Enumerated(EnumType.ORDINAL) // Enum의 순서를 저장
+    @Column(columnDefinition = "TINYINT") // MySQL의 작은 정수 타입 사용
     private Gender gender;
 
     @Temporal(TemporalType.DATE)
@@ -51,4 +52,15 @@ public class User extends BaseEntity {
 
     @Column(name = "total_point", nullable = false)
     private Long totalPoint = 0L;
+
+    @PrePersist
+    protected void onCreate() {
+        if (this.status == null) {
+            this.status = UserStatus.ACTIVE; // 기본값 설정
+        }
+        if (this.totalPoint == null) {
+            this.totalPoint = 0L; // 기본값 설정
+        }
+    }
+
 }
