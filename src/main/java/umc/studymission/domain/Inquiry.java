@@ -9,7 +9,8 @@ import umc.studymission.domain.common.BaseEntity;
 @Builder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-class Inquiry extends BaseEntity {
+public class Inquiry extends BaseEntity {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -20,4 +21,13 @@ class Inquiry extends BaseEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
+
+    @Override
+    public String toString() {
+        return "Inquiry{" +
+                "id=" + id +
+                ", content='" + content + '\'' +
+                ", user=" + (user != null ? user.getUsername() : "N/A") +
+                '}';
+    }
 }
