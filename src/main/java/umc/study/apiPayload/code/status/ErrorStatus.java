@@ -19,6 +19,11 @@ public enum ErrorStatus implements BaseErrorCode {
     //FoodCategory Error
     FOOD_CATEGORY_NOT_FOUND(HttpStatus.NOT_FOUND,"FOOD_CATEGORY4001","음식 카테고리는 없습니다."),
 
+    // Mission 관련 에러
+    MISSION_NOT_FOUND(HttpStatus.NOT_FOUND, "MISSION4001", "미션을 찾을 수 없습니다."),
+    MISSION_ALREADY_IN_PROGRESS(HttpStatus.BAD_REQUEST, "MISSION4002", "이미 진행 중인 미션입니다."),
+    MISSION_NOT_VALID(HttpStatus.BAD_REQUEST, "MISSION4003", "유효하지 않은 미션입니다."),
+
     // 멤버 관려 에러
     MEMBER_NOT_FOUND(HttpStatus.BAD_REQUEST, "MEMBER4001", "사용자가 없습니다."),
     NICKNAME_NOT_EXIST(HttpStatus.BAD_REQUEST, "MEMBER4002", "닉네임은 필수 입니다."),
