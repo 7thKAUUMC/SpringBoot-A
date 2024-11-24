@@ -11,7 +11,6 @@ import umc.study.web.dto.RestaurantResponse;
 @RestController
 @RequestMapping("/api/regions")
 public class RegionController {
-
     private final RestaurantService restaurantService;
 
     public RegionController(RestaurantService restaurantService) {
@@ -22,7 +21,6 @@ public class RegionController {
     public ResponseEntity<ApiResponse<RestaurantResponse>> addRestaurant(
             @PathVariable Long regionId,
             @Valid @RequestBody RestaurantRequest restaurantRequest) {
-
         RestaurantResponse response = restaurantService.addRestaurant(regionId, restaurantRequest);
         return ResponseEntity.ok(ApiResponse.onSuccess(response));
     }

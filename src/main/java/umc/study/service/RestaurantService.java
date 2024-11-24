@@ -18,12 +18,27 @@ public class RestaurantService {
 
     private final RegionRepository regionRepository;
     private final RestaurantRepository restaurantRepository;
-    private final ReviewRepository reviewRepository; // 리뷰 저장을 위한 리포지토리
+    private final ReviewRepository reviewRepository;
 
     public RestaurantService(RegionRepository regionRepository, RestaurantRepository restaurantRepository, ReviewRepository reviewRepository) {
         this.regionRepository = regionRepository;
         this.restaurantRepository = restaurantRepository;
         this.reviewRepository = reviewRepository;
+    }
+
+    @Transactional(readOnly = true)
+    public RestaurantResponse getRestaurant(Long restaurantId) {
+        Restaurant restaurant = restaurantRepository.findById(restaurantId)
+                .orElseThrow(() -> new IllegalArgumentException("Restaurant not found with id: " + restaurantId));
+
+        return new RestaurantResponse(
+                restaurant.getId(),
+                restaurant.getRegion().getId(),
+                restaurant.getRestaurantName(),
+                restaurant.getAddress(),
+                restaurant.getPhoneNumber(),
+                restaurant.getCategory()
+        );
     }
 
     @Transactional
