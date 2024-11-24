@@ -4,6 +4,8 @@ import lombok.*;
 import jakarta.persistence.*;
 import umc.study.domain.common.BaseEntity;
 
+import javax.xml.stream.events.Comment;
+
 @Entity
 @Getter
 @Setter
@@ -22,8 +24,9 @@ public class Review extends BaseEntity {
     @Column(columnDefinition = "TEXT", nullable = false)
     private String content;
 
+    @Setter
     @Column(nullable = false)
-    private Float score;
+    private int rating;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id", nullable = false)
@@ -32,4 +35,8 @@ public class Review extends BaseEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "restaurant_id", nullable = false)
     private Restaurant restaurant;
+
+    @Setter
+    @Column(nullable = false)
+    private String Comment;
 }
