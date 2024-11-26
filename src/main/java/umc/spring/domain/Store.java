@@ -1,19 +1,18 @@
 package umc.spring.domain;
 
 import jakarta.persistence.*;
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import umc.spring.domain.Enums.*;
+import umc.spring.domain.mapping.MemberMission;
+import umc.spring.domain.mapping.StoreMission;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 @Getter
+@Setter
 @Builder
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
@@ -32,6 +31,9 @@ public class Store extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     private UserStatus status;
+
+    @OneToMany(mappedBy = "store", cascade = CascadeType.ALL)
+    private List<StoreMission> storeMissionList = new ArrayList<>();
 
     @Override
     public String toString() {

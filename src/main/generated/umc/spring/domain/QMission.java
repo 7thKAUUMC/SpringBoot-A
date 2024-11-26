@@ -37,6 +37,8 @@ public class QMission extends EntityPathBase<Mission> {
 
     public final EnumPath<umc.spring.domain.Enums.MissionStatus> status = createEnum("status", umc.spring.domain.Enums.MissionStatus.class);
 
+    public final ListPath<umc.spring.domain.mapping.StoreMission, umc.spring.domain.mapping.QStoreMission> storeMissionList = this.<umc.spring.domain.mapping.StoreMission, umc.spring.domain.mapping.QStoreMission>createList("storeMissionList", umc.spring.domain.mapping.StoreMission.class, umc.spring.domain.mapping.QStoreMission.class, PathInits.DIRECT2);
+
     //inherited
     public final DateTimePath<java.time.LocalDateTime> updatedAt = _super.updatedAt;
 

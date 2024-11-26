@@ -1,8 +1,8 @@
-package umc.spring.converter;
+package umc.spring.converter.Store;
 
 import umc.spring.domain.Store;
-import umc.spring.web.dto.StoreRequestDTO;
-import umc.spring.web.dto.StoreResponseDTO;
+import umc.spring.web.dto.Store.StoreRequestDTO;
+import umc.spring.web.dto.Store.StoreResponseDTO;
 
 import java.time.LocalDateTime;
 

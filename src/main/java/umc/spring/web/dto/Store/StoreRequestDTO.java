@@ -1,8 +1,10 @@
-package umc.spring.web.dto;
+package umc.spring.web.dto.Store;
 
-import io.swagger.v3.oas.annotations.media.Schema;
+import io.micrometer.common.lang.Nullable;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
+
+import java.util.List;
 
 public class StoreRequestDTO {
 
@@ -12,5 +14,7 @@ public class StoreRequestDTO {
         String name;
         @NotNull
         String address;
+        @Nullable
+        List<Long> storemission;
     }
 }

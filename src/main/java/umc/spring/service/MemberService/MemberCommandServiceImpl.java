@@ -5,14 +5,14 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import umc.spring.ApiPayload.code.status.ErrorStatus;
 import umc.spring.ApiPayload.exception.handler.FoodCategoryHandler;
-import umc.spring.converter.MemberConverter;
-import umc.spring.converter.MemberPreferConverter;
+import umc.spring.converter.Member.MemberConverter;
+import umc.spring.converter.Member.MemberPreferConverter;
 import umc.spring.domain.FoodCategory;
 import umc.spring.domain.Member;
 import umc.spring.domain.mapping.MemberPrefer;
 import umc.spring.repository.FoodCategoryRepository;
-import umc.spring.repository.MemberRepository;
-import umc.spring.web.dto.MemberRequestDTO;
+import umc.spring.repository.Member.MemberRepository;
+import umc.spring.web.dto.Member.MemberRequestDTO;
 
 import java.util.List;
 import java.util.stream.Collectors;

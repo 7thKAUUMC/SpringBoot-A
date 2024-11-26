@@ -2,7 +2,7 @@ package umc.spring.service.MemberService;
 
 import jakarta.transaction.Transactional;
 import umc.spring.domain.Member;
-import umc.spring.web.dto.MemberRequestDTO;
+import umc.spring.web.dto.Member.MemberRequestDTO;
 
 public interface MemberCommandService {
     @Transactional
