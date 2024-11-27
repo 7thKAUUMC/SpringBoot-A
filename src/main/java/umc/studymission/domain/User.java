@@ -22,7 +22,7 @@ public class User extends BaseEntity {
     @Column(nullable = false, unique = true, length = 20)
     private String username;
 
-    @Column(nullable = false, unique = true, length = 50)
+//    @Column(nullable = false, unique = true, length = 50)
     private String email;
 
     @Column(nullable = false, length = 60)  // 보안상 해시된 비밀번호를 저장
@@ -52,6 +52,11 @@ public class User extends BaseEntity {
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Inquiry> inquiries;
+
+    // 암호화된 비밀번호를 설정하는 메서드 추가
+    public void setPassword(String password) {
+        this.password = password; // 암호화된 비밀번호를 저장하도록
+    }
 
     @Override
     public String toString() {
