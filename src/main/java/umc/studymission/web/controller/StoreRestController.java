@@ -15,7 +15,7 @@ import umc.studymission.service.StoreService.StoreCommandService;
 import umc.studymission.web.dto.StoreRequestDTO;
 import umc.studymission.web.dto.StoreResponseDTO;
 
-@Tag(name = "Store", description = "Store management API")
+@Tag(name = "가게", description = "가게 관련 API")
 @RestController
 @RequestMapping("/stores")
 @RequiredArgsConstructor
@@ -23,7 +23,7 @@ public class StoreRestController {
 
     private final StoreCommandService storeCommandService;  // StoreCommandService 사용
 
-    @Operation(summary = "Add a new store")
+    @Operation(summary = "새로운 가게 추가하기")
     @PostMapping
     public ResponseEntity<StoreResponseDTO> addStore(@RequestBody StoreRequestDTO storeRequestDTO) {
         // 비즈니스 로직 수행 후 Store 객체 생성
