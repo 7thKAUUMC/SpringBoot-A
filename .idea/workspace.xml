@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afa9c46e-fb56-43ae-b8eb-7bf04854d832" name="Changes" comment="&quot;mission8 #5 Feat: 미션추가 api구현&quot;" />
+    <list default="true" id="04751509-aba4-40ed-9e82-ea675dc3f128" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,20 +67,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.StudyApplication.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.SpringBoot-A [:umc.study.StudyApplication.main()].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "15-feat-이비의-9주차",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/fptdl/Downloads/spring/SpringA/SpringBoot-A",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "git-widget-placeholder": "Merging 15-feat-이비의-9주차"
   }
 }]]></component>
   <component name="RecentsManager">
