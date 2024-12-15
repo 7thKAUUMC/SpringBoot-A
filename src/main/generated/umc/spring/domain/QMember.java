@@ -47,6 +47,8 @@ public class QMember extends EntityPathBase<Member> {
 
     public final ListPath<Review, QReview> ReviewList = this.<Review, QReview>createList("ReviewList", Review.class, QReview.class, PathInits.DIRECT2);
 
+    public final EnumPath<umc.spring.domain.Enums.Role> role = createEnum("role", umc.spring.domain.Enums.Role.class);
+
     public final EnumPath<umc.spring.domain.Enums.UserStatus> status = createEnum("status", umc.spring.domain.Enums.UserStatus.class);
 
     //inherited

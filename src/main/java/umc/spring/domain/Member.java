@@ -32,10 +32,10 @@ public class Member extends BaseEntity {
     @Column(nullable = false, length = 20)
     private String name;
 
-    @Column(nullable = false, length = 40)
+    @Column(nullable = false, length = 40, columnDefinition = "VARCHAR(40) DEFAULT 'unknown'")
     private String address;
 
-    @Column(nullable = false, length = 40)
+    @Column(nullable = false, length = 255)
     private String password;
 
     @Enumerated(EnumType.STRING)
@@ -46,11 +46,18 @@ public class Member extends BaseEntity {
     @Column(columnDefinition = "VARCHAR(15) DEFAULT 'ACTIVE'")
     private UserStatus status;
 
-    @Column(nullable = true, length = 40)
+    @Column(nullable = true, length = 40, unique = true)
     private String email;
+
+    @Enumerated(EnumType.STRING)
+    private Role role;
 
     @ColumnDefault("0")
     private Integer point;
+
+    public void encodePassword(String password) {
+        this.password = password;
+    }
 
     @OneToMany(mappedBy = "member", cascade = CascadeType.ALL)
     private List<Review> ReviewList = new ArrayList<>();
