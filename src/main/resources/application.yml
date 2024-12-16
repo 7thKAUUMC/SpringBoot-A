@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/study_umc
+    username: root
+    password: 1234  # 직접 비밀번호를 입력해 테스트
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      mode: never
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        show_sql: true
+        format_sql: true
+        use_sql_comments: true
+        hbm2ddl:
+          auto: update
+        default_batch_fetch_size: 1000
+
+logging:
+  level:
+    root: DEBUG  # 전체 로그 레벨을 DEBUG로 설정
+    org.springframework: DEBUG  # Spring 관련 로그를 DEBUG로 설정
+    umc.study: TRACE  # 패키지 'umc.study'의 로그를 TRACE로 설정
+    org.springframework.security: DEBUG  # Spring Security 관련 로그를 DEBUG로 설정
+
+  file:
+    name: logs/application.log  # 로그 파일 경로 설정
+    max-size: 10MB  # 로그 파일 최대 크기 설정
+    max-history: 30  # 최대 보관할 로그 파일 개수 (30일)
+    total-size-cap: 200MB  # 전체 로그 파일의 최대 크기 (200MB)
